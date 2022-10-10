@@ -21,7 +21,7 @@ const Navbar=()=>{
                                         height:"auto"
                                            
                                  }}> 
-        <NavLink to="/jkids">
+        <NavLink to="/">
             <div style={{backgroundImage:"url("+logo+")",
                         backgroundSize:"auto",
                         width:"150px",
@@ -34,7 +34,7 @@ const Navbar=()=>{
             </div>
         </NavLink>
             <div style={{paddingLeft:"7.5rem",paddingTop:"30px",fontWeight:"bold",   textShadow:"0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black",fontFamily:"defolt-bold"}}>
-                <NavLink to="/jkids" style={{color:"white",textDecoration:"none"}}>HOME</NavLink>
+                <NavLink to="/" style={{color:"white",textDecoration:"none"}}>HOME</NavLink>
             </div>
                     
                 
