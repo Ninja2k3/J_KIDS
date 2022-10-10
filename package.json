@@ -2,7 +2,7 @@
   "name": "jkids_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ninja2k3.github.io/J_KIDS",
+  "homepage": "https://ninja2k3.github.io/jkids",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
