@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/J_KIDS/static/css/main.9b9440ad.css",
+    "main.js": "/J_KIDS/static/js/main.bd9cfa13.js",
+    "static/media/location.jpg": "/J_KIDS/static/media/location.1add18c2e4484ff30f28.jpg",
+    "static/media/bg2.jpg": "/J_KIDS/static/media/bg2.f322bfdb945ffbddb26e.jpg",
+    "static/media/camera1.jpg": "/J_KIDS/static/media/camera1.6f140d8a116d18d4aed4.jpg",
+    "static/media/wotah1.jpg": "/J_KIDS/static/media/wotah1.d00cd53ed289628ae590.jpg",
+    "static/media/map.png": "/J_KIDS/static/media/map.c6a957086a551370630a.png",
+    "static/media/image4.jpg": "/J_KIDS/static/media/image4.7ac4fff7911b8939ef8c.jpg",
+    "static/media/Letters for Learners Outline Bold.ttf": "/J_KIDS/static/media/Letters for Learners Outline Bold.8bf4cab007aec881d761.ttf",
+    "static/media/image9.jpg": "/J_KIDS/static/media/image9.c877b5eb29fd9ec3ac47.jpg",
+    "static/media/Letters for Learners.ttf": "/J_KIDS/static/media/Letters for Learners.7e712f2d5a710b24c025.ttf",
+    "static/media/image11.jpg": "/J_KIDS/static/media/image11.9148fdb3992031448585.jpg",
+    "index.html": "/J_KIDS/index.html",
+    "main.9b9440ad.css.map": "/J_KIDS/static/css/main.9b9440ad.css.map",
+    "main.bd9cfa13.js.map": "/J_KIDS/static/js/main.bd9cfa13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b9440ad.css",
+    "static/js/main.bd9cfa13.js"
+  ]
+}
