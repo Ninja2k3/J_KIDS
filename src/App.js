@@ -26,7 +26,7 @@ const App=()=>{
         <Wrapper>
         <Navbar/>
         <Routes>
-          <Route path="/jkids" element={<Background/>}/>
+          <Route path="/" element={<Background/>}/>
           <Route path="/AboutUs" element={<AboutUs/>}/>
           <Route path='/ContactUs' element={<ContactUs/>}/>
           <Route path='/Gallery' element={<Gallery/>}/>
