@@ -22,7 +22,7 @@ const Wrapper = ({children}) => {
 const App=()=>{
   return(
     <div>
-      <Router basename="/">
+      <Router>
         <Wrapper>
         <Navbar/>
         <Routes>
