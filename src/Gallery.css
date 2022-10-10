@@ -12,4 +12,13 @@ body {
     font-size: 24px;
   }
 
+@font-face {
+  font-family: "defolt";
+  src: url("./font/Letters\ for\ Learners.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "defolt-bold";
+  src: url("./font/Letters\ for\ Learners\ Outline\ Bold.ttf") format("truetype");
+}
   

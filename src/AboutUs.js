@@ -1,27 +1,24 @@
-import React,{useState} from 'react'
+import React, {useState} from 'react'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-
-import image1 from './photos/image1.jpg'
-import image2 from './photos/image2.jpg'
-import image3 from './photos/image3.jpg'
-import image4 from './photos/image4.jpg'
-import image5 from './photos/image5.jpg'
-import image6 from './photos/image6.jpg'
-import image7 from './photos/image7.jpg'
-import image8 from './photos/image8.jpg'
-import image9 from './photos/image9.jpg'
-import image10 from './photos/image10.jpg'
-import image11 from './photos/image11.jpg'
-import pamphlet from './photos/pamphlet.png'
-
-import logo1 from './photos/logo1.jpg'
-
+import Faq from './faq'
+import "./Gallery.css"
+import "./font/Letters\ for\ Learners.ttf"
+import img2 from './photos/bg2.jpg'
 const AboutUs=()=>{
+  
   return(
+  <div>
+    <div style={{paddingTop:"6.5rem"}}></div>
+    <AnimationOnScroll animateIn='animate__backInRight'> 
+      <div style={{background:"url("+img2+")",backgroundRepeat:"no-repeat",height:"100%",color:"white",marginRight:"0.5vw",marginTop:"0.5vh",marginBottom:"0.5vh",border:"1px solid black",borderRadius:"5px",}}>  
+      <Faq/>
+
+      </div>
     
-    <div>
-      <img style={{display:"block",width:"100vw",height:"100vh"}} src={pamphlet}></img>
+    </AnimationOnScroll>
     </div>
+
+
   )
 }
 

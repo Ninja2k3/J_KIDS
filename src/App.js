@@ -7,18 +7,31 @@ import Background from './Background';
 import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import Gallery from './Gallery';
+import { useLocation } from 'react-router-dom'
+import { useLayoutEffect } from 'react'
+
+const Wrapper = ({children}) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children
+} 
+
 
 const App=()=>{
   return(
     <div>
-      <Router>
+      <Router basename="/">
+        <Wrapper>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Background/>}/>
+          <Route path="/jkids" element={<Background/>}/>
           <Route path="/AboutUs" element={<AboutUs/>}/>
           <Route path='/ContactUs' element={<ContactUs/>}/>
           <Route path='/Gallery' element={<Gallery/>}/>
         </Routes>
+        </Wrapper>
         <Footer/>
       </Router>
 
