@@ -23,7 +23,7 @@ const Background=()=>{
         <p style={{fontSize:"2rem",border:"2px solid black",display:"block",textAlign:"center",backgroundImage:"url("+img+")",backgroundSize:"cover",marginLeft:"0.2rem"}}>
           <h1 style={{paddingLeft:"200px",marginTop:"1rem"}}>JKIDS PRESCHOOL</h1><br></br>
           <hr style={{border:"1px solid black"}}></hr><br></br>
-          JKids is an international standard Preschool located in Manjunathnagar. We offer children a safe and fun atmosphere to enhance their learning. Our preschool has four levels:<br></br>
+          JKids is an international standard Preschool located in Manjunathnagar, Rajajinagar. We strive to be the best school in bangalore and offer children a safe and fun atmosphere to enhance their learning. Our preschool has four levels:<br></br>
           <br></br>
           1) Pre-Nursery (1.8-3 Years old)
           <br></br>
